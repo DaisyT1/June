@@ -1,0 +1,40 @@
+body, h1, h3, p {
+  padding: 0;
+  margin: 0;
+}
+
+.cardBlue {
+  background-color: rgb(129, 134, 138);
+  height: 100vh;
+  width: 100%;
+}
+
+.cardWhite {
+  height: 85%;
+  width: 93%;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cardCopy {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.link {
+  color: hotpink;
+  display: block;
+  margin-top: 30px; 
+}
+
+.copyShared {
+  margin-top: 30px; 
+}
+
+
+
