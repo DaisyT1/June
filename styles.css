@@ -11,30 +11,18 @@ body, h1, h3, p {
 
 .cardWhite {
   height: 85%;
-  width: 93%;
-  background-color: white;
+  width: 100%;
   margin: 0 auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.cardCopy {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
 
-.link {
-  color: hotpink;
-  display: block;
-  margin-top: 30px; 
+
+@media only screen and (max-width: 830px) {
+  .card {
+    width: 80%;
+  }
 }
-
-.copyShared {
-  margin-top: 30px; 
-}
-
-
 
